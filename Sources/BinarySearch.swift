@@ -29,20 +29,19 @@ public enum BinarySearch {
 
 public extension Collection where Index: Strideable, Index: SignedInteger {
 
-	typealias ElementComparator<T> = (T, T) -> ComparisonResult
+	typealias NeedleElementComparator<Needle, Element> = (Needle, Element) -> ComparisonResult
 
-
-	/// Use the binary search algorithm to search for element in a sorted array.
+	/// Use the binary search algorithm to search for an element in a sorted array.
 	///
 	/// - Parameters:
-	///   - needle: The element to search for.
+	///   - needle: The object to search for. It can be of a different type than Iterator.Element.
 	///   - insertion: Set to true if you want to search for the insertion index of `element` instead of searching for an existing element. The default is `false`.
 	///   - options: A Position to search for. Specifying `any` might offer a slight performance increase. The default is `any`.
-	///   - comparator: A block that compares two elements and returns a ComparisonResult.
+	///   - comparator: A block that compares the needle to the elements and returns a ComparisonResult.
 	/// - Returns:
 	///	   Returns the matching index, or nil if no index matches.
 
-	func binary(search needle: Iterator.Element, insertion: Bool = false, options: BinarySearch.Position = .any, comparator: ElementComparator<Iterator.Element>) -> Index? {
+	func binary<Needle>(search needle: Needle, insertion: Bool = false, options: BinarySearch.Position = .any, comparator: NeedleElementComparator<Needle, Iterator.Element>) -> Index? {
 
 		var low = self.startIndex
 		var high = self.endIndex // past end
@@ -88,7 +87,7 @@ public extension Collection where Index: Strideable, Index: SignedInteger {
 	/// - Returns:
 	///	   Returns the matching index, or nil if no index matches.
 
-	func binaryInsertion(search needle: Iterator.Element, options: BinarySearch.Position = .any, comparator: ElementComparator<Iterator.Element>) -> Index {
+	func binaryInsertion<Needle>(search needle: Needle, options: BinarySearch.Position = .any, comparator: NeedleElementComparator<Needle, Iterator.Element>) -> Index {
 
 		return self.binary(search: needle, insertion: true, options: options, comparator: comparator)!
 	}
