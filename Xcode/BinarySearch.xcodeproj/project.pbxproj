@@ -38,7 +38,6 @@
 		D87F37501E413160007C12AD /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		D87F37511E413160007C12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87F375B1E4131BD007C12AD /* BinarySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinarySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87F375C1E4131BE007C12AD /* BinarySearch_macOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BinarySearch_macOS copy-Info.plist"; path = "/Users/meister/Documents/Source/BinarySearch/Xcode/BinarySearch_macOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		D87F37611E4132FD007C12AD /* BinarySearch_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearch_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87F37651E4132FD007C12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87F37701E41332F007C12AD /* BinarySearch_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearch_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +130,6 @@
 				D87F37621E4132FD007C12AD /* BinarySearch_macOSTests */,
 				D87F37711E41332F007C12AD /* BinarySearch_iOSTests */,
 				D8ECF5E91E3F78BC00E9A903 /* Products */,
-				D87F375C1E4131BE007C12AD /* BinarySearch_macOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
