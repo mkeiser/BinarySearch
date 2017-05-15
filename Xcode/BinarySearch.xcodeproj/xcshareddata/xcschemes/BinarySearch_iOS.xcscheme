@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D87F376F1E41332F007C12AD"
+               BuildableName = "BinarySearch_iOSTests.xctest"
+               BlueprintName = "BinarySearch_iOSTests"
+               ReferencedContainer = "container:BinarySearch.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D87F37521E4131BD007C12AD"
+            BuildableName = "BinarySearch_iOS.framework"
+            BlueprintName = "BinarySearch_iOS"
+            ReferencedContainer = "container:BinarySearch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

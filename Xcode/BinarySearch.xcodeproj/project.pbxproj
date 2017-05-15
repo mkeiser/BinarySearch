@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D867DA901E3FC5D600C00117 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECF5F41E3F794E00E9A903 /* BinarySearch.swift */; };
+		D87E1F351ECA2BA600B5C7D8 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E1F341ECA2B7500B5C7D8 /* BinarySearchTests.swift */; };
+		D87E1F361ECA2BA700B5C7D8 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E1F341ECA2B7500B5C7D8 /* BinarySearchTests.swift */; };
 		D87F37541E4131BD007C12AD /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECF5F41E3F794E00E9A903 /* BinarySearch.swift */; };
 		D87F37661E4132FD007C12AD /* BinarySearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D867DA881E3FC54A00C00117 /* BinarySearch.framework */; };
-		D87F37731E41332F007C12AD /* BinarySearch_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87F37721E41332F007C12AD /* BinarySearch_iOSTests.swift */; };
 		D87F37751E41332F007C12AD /* BinarySearch_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87F375B1E4131BD007C12AD /* BinarySearch_iOS.framework */; };
-		D87F377B1E41333C007C12AD /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867DA821E3FC52800C00117 /* BinarySearchTests.swift */; };
-		D87F377C1E41333E007C12AD /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867DA821E3FC52800C00117 /* BinarySearchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D867DA821E3FC52800C00117 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		D867DA881E3FC54A00C00117 /* BinarySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinarySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87E1F341ECA2B7500B5C7D8 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		D87F37501E413160007C12AD /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		D87F37511E413160007C12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87F375B1E4131BD007C12AD /* BinarySearch_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinarySearch_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +42,6 @@
 		D87F37611E4132FD007C12AD /* BinarySearch_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearch_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87F37651E4132FD007C12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87F37701E41332F007C12AD /* BinarySearch_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearch_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87F37721E41332F007C12AD /* BinarySearch_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch_iOSTests.swift; sourceTree = "<group>"; };
 		D87F37741E41332F007C12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8ECF5F41E3F794E00E9A903 /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,21 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D867DA801E3FC52800C00117 /* Tests */ = {
+		D87E1F321ECA2B7500B5C7D8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D867DA811E3FC52800C00117 /* BinarySearch */,
+				D87E1F331ECA2B7500B5C7D8 /* BinarySearchTests */,
 			);
 			name = Tests;
 			path = ../Tests;
 			sourceTree = "<group>";
 		};
-		D867DA811E3FC52800C00117 /* BinarySearch */ = {
+		D87E1F331ECA2B7500B5C7D8 /* BinarySearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				D867DA821E3FC52800C00117 /* BinarySearchTests.swift */,
+				D87E1F341ECA2B7500B5C7D8 /* BinarySearchTests.swift */,
 			);
-			path = BinarySearch;
+			path = BinarySearchTests;
 			sourceTree = "<group>";
 		};
 		D87F374F1E413160007C12AD /* BinarySearch */ = {
@@ -119,7 +117,6 @@
 		D87F37711E41332F007C12AD /* BinarySearch_iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				D87F37721E41332F007C12AD /* BinarySearch_iOSTests.swift */,
 				D87F37741E41332F007C12AD /* Info.plist */,
 			);
 			path = BinarySearch_iOSTests;
@@ -129,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				D8ECF5F31E3F793F00E9A903 /* Sources */,
-				D867DA801E3FC52800C00117 /* Tests */,
+				D87E1F321ECA2B7500B5C7D8 /* Tests */,
 				D87F374F1E413160007C12AD /* BinarySearch */,
 				D87F37621E4132FD007C12AD /* BinarySearch_macOSTests */,
 				D87F37711E41332F007C12AD /* BinarySearch_iOSTests */,
@@ -352,7 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87F377B1E41333C007C12AD /* BinarySearchTests.swift in Sources */,
+				D87E1F351ECA2BA600B5C7D8 /* BinarySearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,8 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87F377C1E41333E007C12AD /* BinarySearchTests.swift in Sources */,
-				D87F37731E41332F007C12AD /* BinarySearch_iOSTests.swift in Sources */,
+				D87E1F361ECA2BA700B5C7D8 /* BinarySearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +648,7 @@
 				D87F376B1E4132FD007C12AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D87F37781E41332F007C12AD /* Build configuration list for PBXNativeTarget "BinarySearch_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -660,6 +657,7 @@
 				D87F377A1E41332F007C12AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8ECF5E21E3F78BC00E9A903 /* Build configuration list for PBXProject "BinarySearch" */ = {
 			isa = XCConfigurationList;
