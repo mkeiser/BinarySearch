@@ -12,7 +12,7 @@
 		D87E1F361ECA2BA700B5C7D8 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E1F341ECA2B7500B5C7D8 /* BinarySearchTests.swift */; };
 		D87F37541E4131BD007C12AD /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECF5F41E3F794E00E9A903 /* BinarySearch.swift */; };
 		D87F37661E4132FD007C12AD /* BinarySearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D867DA881E3FC54A00C00117 /* BinarySearch.framework */; };
-		D87F37751E41332F007C12AD /* BinarySearch_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87F375B1E4131BD007C12AD /* BinarySearch_iOS.framework */; };
+		D87F37751E41332F007C12AD /* BinarySearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87F375B1E4131BD007C12AD /* BinarySearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		D87E1F341ECA2B7500B5C7D8 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		D87F37501E413160007C12AD /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		D87F37511E413160007C12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D87F375B1E4131BD007C12AD /* BinarySearch_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinarySearch_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87F375B1E4131BD007C12AD /* BinarySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinarySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87F375C1E4131BE007C12AD /* BinarySearch_macOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BinarySearch_macOS copy-Info.plist"; path = "/Users/meister/Documents/Source/BinarySearch/Xcode/BinarySearch_macOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		D87F37611E4132FD007C12AD /* BinarySearch_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearch_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87F37651E4132FD007C12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87F37751E41332F007C12AD /* BinarySearch_iOS.framework in Frameworks */,
+				D87F37751E41332F007C12AD /* BinarySearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D867DA881E3FC54A00C00117 /* BinarySearch.framework */,
-				D87F375B1E4131BD007C12AD /* BinarySearch_iOS.framework */,
+				D87F375B1E4131BD007C12AD /* BinarySearch.framework */,
 				D87F37611E4132FD007C12AD /* BinarySearch_macOSTests.xctest */,
 				D87F37701E41332F007C12AD /* BinarySearch_iOSTests.xctest */,
 			);
@@ -208,7 +208,7 @@
 			);
 			name = BinarySearch_iOS;
 			productName = BinarySearch_macOS;
-			productReference = D87F375B1E4131BD007C12AD /* BinarySearch_iOS.framework */;
+			productReference = D87F375B1E4131BD007C12AD /* BinarySearch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D87F37601E4132FD007C12AD /* BinarySearch_macOSTests */ = {
@@ -432,11 +432,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "BinarySearch_macOS copy-Info.plist";
+				INFOPLIST_FILE = BinarySearch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tristan.BinarySearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BinarySearch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -454,11 +454,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "BinarySearch_macOS copy-Info.plist";
+				INFOPLIST_FILE = BinarySearch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tristan.BinarySearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BinarySearch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
