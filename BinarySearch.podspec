@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BinarySearch'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'Swift module for binary search in sorted collections. Supports searching for existing elements and insertion index.'
 
 # This description is used to generate tags and improve search results.
