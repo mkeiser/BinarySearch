@@ -114,6 +114,28 @@ class BinarySearchTests: XCTestCase {
 		return result
 	}
 
+	func testPropertySearch() {
+
+		struct Element {
+			let property: Int
+		}
+
+		let elements = [Element(property: 0), Element(property: 1), Element(property: 2)]
+
+		let result = elements.binary(search: 1) { (needle, element) -> ComparisonResult in
+
+			if needle == element.property {
+				return .orderedSame
+			} else if needle < element.property {
+					return .orderedAscending
+			} else {
+				return .orderedDescending
+			}
+		}
+
+		XCTAssertEqual(result, 1)
+	}
+
 	// Testing the test infrastructure 🙄
 	func testTest()  {
 
