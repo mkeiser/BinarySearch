@@ -27,7 +27,7 @@ public enum BinarySearch {
 	}
 }
 
-public extension Collection where Index: Strideable, Index: SignedInteger {
+public extension Collection where Index: SignedInteger {
 
 	typealias NeedleElementComparator<Needle, Element> = (Needle, Element) -> ComparisonResult
 
@@ -93,7 +93,7 @@ public extension Collection where Index: Strideable, Index: SignedInteger {
 	}
 }
 
-public extension Collection where Iterator.Element: Comparable, Index: Strideable, Index: SignedInteger {
+public extension Collection where Iterator.Element: Comparable, Index: SignedInteger {
 
 	/// Use the binary search algorithm to search for element in a sorted array whose elements are Comparable.
 	///
