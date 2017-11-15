@@ -2,10 +2,16 @@
 
 This is a Swift module for binary search in sorted collections. It supports searching for existing elements as well as for the insertion index. There are additional options to specify if you are searching for the first, last, or any of the matching indexes.
 
-##### Note
-	All of the following methods assume that the Collection is sorted. The result of calling these methods on an unsorted Collection is undefined.
+## Requirements
 
-### Basic Usage
+ * Swift 3 or Swift 4
+ * iOS 8.0+ or macOS 10.11+
+
+## Note
+
+All of the following methods assume that the Collection is sorted. The result of calling these methods on an unsorted Collection is undefined.
+
+## Basic Usage
 
 If the elements of the `Collection` conform to the the `Comparable` protocol, usage is very simple:
 

@@ -258,6 +258,7 @@
 					D867DA871E3FC54A00C00117 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V85GBYB7B9;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					D87F37521E4131BD007C12AD = {
@@ -266,11 +267,13 @@
 					D87F37601E4132FD007C12AD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V85GBYB7B9;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					D87F376F1E41332F007C12AD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V85GBYB7B9;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -393,6 +396,7 @@
 				PRODUCT_NAME = BinarySearch;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -415,6 +419,7 @@
 				PRODUCT_NAME = BinarySearch;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -473,6 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tristan.BinarySearch-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -487,6 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tristan.BinarySearch-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -502,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tristan.BinarySearch-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -517,6 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tristan.BinarySearch-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
