@@ -4,7 +4,7 @@ This is a Swift module for binary search in sorted collections. It supports sear
 
 ## Requirements
 
- * Swift 3 or Swift 4
+ * Swift 4 or later
  * iOS 8.0+ or macOS 10.11+
 
 ## Note
